@@ -1,12 +1,11 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("OwinRoleProviderMiddleware")]
-[assembly: AssemblyDescription( "Role Provider middleware for OWIN" )]
+[assembly: AssemblyDescription( "Role Provider middleware for Owin" )]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany( "Sainsbury's Supermarkets Ltd" )]
 [assembly: AssemblyProduct("OwinRoleProviderMiddleware")]
