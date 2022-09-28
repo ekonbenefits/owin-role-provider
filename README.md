@@ -1,4 +1,4 @@
-# owin-role-provider
+# owin-role-provider-ekon-fork
 Owin middleware to inject role claims into an identity.
 
 ## Usage
