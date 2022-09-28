@@ -17,7 +17,7 @@ namespace OwinRoleProviderMiddleware
 
         public override async Task Invoke( IOwinContext context )
         {
-            var principal = context.Request.User.Identity as ClaimsPrincipal;
+            var principal = context.Request.User;
             var user = context.Request.User.Identity as ClaimsIdentity;
             if ( user != null && user.IsAuthenticated )
             {
