@@ -1,19 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <ProjectGuid>{E393377E-B5D4-479D-BD1F-DD50F31986F2}</ProjectGuid>
-    <TargetFramework>net45</TargetFramework>
-    <AssemblyTitle>OwinRoleProviderMiddleware</AssemblyTitle>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyTitle>OwinRoleProviderMiddlewareEkonFork</AssemblyTitle>
     <Company>Sainsbury's Supermarkets Ltd</Company>
-    <Product>OwinRoleProviderMiddleware</Product>
+    <Product>OwinRoleProviderMiddlewareEkonFork</Product>
     <Description>Role Provider middleware for Owin</Description>
     <Copyright>Copyright 2015</Copyright>
-    <Version>0.1.0.0</Version>
-    <AssemblyVersion>0.1.0.0</AssemblyVersion>
-    <FileVersion>0.1.0.0</FileVersion>
+    <Version>1.2.0.0</Version>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <Authors>Sainsbury's Supermarkets Ltd</Authors>
-    <PackageProjectUrl>https://github.com/catk/owin-role-provider</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ekonbenefits/owin-role-provider</PackageProjectUrl>
     <PackageTags>Owin Middleware Roles RBAC</PackageTags>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <EmbedUntrackedSources>true</EmbedUntrackedSources>
+	  <AssemblyName>$(MSBuildProjectName)EkonFork</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -24,6 +29,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Owin" Version="4.2.2" />
     <PackageReference Include="Owin" Version="1.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Data.DataSetExtensions" />
