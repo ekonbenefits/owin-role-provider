@@ -1,15 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <ProjectGuid>{E393377E-B5D4-479D-BD1F-DD50F31986F2}</ProjectGuid>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net472</TargetFramework>
     <AssemblyTitle>OwinRoleProviderMiddlewareEkonFork</AssemblyTitle>
     <Company>Sainsbury's Supermarkets Ltd</Company>
     <Product>OwinRoleProviderMiddlewareEkonFork</Product>
     <Description>Role Provider middleware for Owin</Description>
     <Copyright>Copyright 2015</Copyright>
     <Version>1.2.0.0</Version>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <FileVersion>1.3.0.0</FileVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <Authors>Sainsbury's Supermarkets Ltd</Authors>
     <PackageProjectUrl>https://github.com/ekonbenefits/owin-role-provider</PackageProjectUrl>
